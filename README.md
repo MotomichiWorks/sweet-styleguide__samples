@@ -1,0 +1,2 @@
+# sweet-styleguide__samples
+sweet-styleguideを使用してスタイルガイドのサンプルを作成していきます。
