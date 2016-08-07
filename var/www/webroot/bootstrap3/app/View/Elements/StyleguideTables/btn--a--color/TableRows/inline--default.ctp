@@ -13,7 +13,7 @@ $display_sample = <<<EOT
 //---表示サンプルとコピペ用コードHTML(ここから)
 
 
-<input class="btn btn-default" type="button" value="input要素">
+<a class="btn btn-default" href="#">a要素</a>
 
 
 //---表示サンプルとコピペ用コードHTML(ここまで)

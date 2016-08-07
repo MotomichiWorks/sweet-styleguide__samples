@@ -13,7 +13,7 @@ $display_sample = <<<EOT
 //---表示サンプルとコピペ用コードHTML(ここから)
 
 
-<p style="background:#ffdddd; font-size: 32px;">表示サンプル</p>
+<input class="btn btn-default" type="submit" value="送信ボタン">
 
 
 //---表示サンプルとコピペ用コードHTML(ここまで)
