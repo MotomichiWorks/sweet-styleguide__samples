@@ -37,7 +37,9 @@ $display_sample = str_replace('//---表示サンプルとコピペ用コードHT
 $display_sample = trim($display_sample);
 $copy_paste_code = $display_sample;
 $copy_paste_code = str_replace('//---表示サンプルとコピペ用コードHTML(ここから)', '', $copy_paste_code);
-$copy_paste_code = str_replace('//---表示サンプルとコピペ用コードHTML(ここから)', '', $copy_paste_code);
+$copy_paste_code = str_replace('//---表示サンプルとコピペ用コードHTML(ここまで)', '', $copy_paste_code);
+$copy_paste_code = str_replace('<', '&lt;', $copy_paste_code);
+$copy_paste_code = str_replace('>', '&gt;', $copy_paste_code);
 $copy_paste_code = trim($copy_paste_code);
 echo $this->SgTable0001->createTr();
 echo $this->SgTable0001->descCell();
